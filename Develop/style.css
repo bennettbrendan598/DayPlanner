@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: #ffe6f3;
 }
 
 textarea{
@@ -14,11 +15,13 @@ textarea{
 }
 
 .jumbotron {
+  font-family: 'Cedarville Cursive', cursive;
   text-align: center;
-  background-color: transparent;
+  background-color: #ffe6f3;
   color: black;
   border-radius: 0;
-  border-bottom: 3px solid black;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .description{
@@ -79,7 +82,15 @@ textarea{
   color: green;
 }
 
+.current-time {
+  color: green;
+}
+
 .display-3 {
   font-size: 40px;
+  font-style: bold;
+}
+
+.italics {
   font-style: italic;
 }
